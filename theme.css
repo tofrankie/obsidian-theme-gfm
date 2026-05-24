@@ -1046,6 +1046,7 @@ button.mod-cta:hover {
   --callout-radius: 0;
   --callout-border-width: 0;
   --callout-padding: 0 1em;
+
   padding-block: var(--base-size-8);
   padding-inline: var(--base-size-16);
   color: var(--fgColor-default);

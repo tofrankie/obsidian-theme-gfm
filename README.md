@@ -2,29 +2,26 @@
 
 ![Promo](/images/promo.png)
 
+## Features
+
+> A leaner [GitHub Theme](https://github.com/krios2146/obsidian-theme-github) fork—Kanban styling kept, custom settings trimmed, closer to native GFM.
+
+- Near-native GFM experience
+- Support for GFM Alerts
+
 ## Preview
 
 <details>
 <summary> Screenshots </summary>
 <p>
 
-![Screenshot-1](/images/screenshots/note.png)
-
-![Screenshot-2](/images/screenshots/note-2.png)
-
-![Screenshot-3](/images/screenshots/command-palette.png)
-
-![Kanban](/images/screenshots/kanban-plugin.png)
+![Dark Mode](/images/screenshots/dark-mode-1.png)
+![Dark Mode](/images/screenshots/dark-mode-2.png)
+![Light Mode](/images/screenshots/light-mode-1.png)
+![Light Mode](/images/screenshots/light-mode-2.png)
 
 </p>
 </details>
-
-## Features
-
-- [Kanban](https://github.com/obsidian-community/obsidian-kanban) board has been styled to look like a GitHub Projects
-- Callouts in GitHub style
-- Inline code blocks in GitHub style
-- Obsidian UI buttons in GitHub style
 
 ## Theme Settings
 
@@ -32,9 +29,7 @@ Theme settings can be find in the [Style Settings](https://github.com/obsidian-c
 
 Current settings include:
 
-- Header colors
 - On/Off kanban styles
-- On/Off callout styles
 - Colorblind colorscheme variants
 
 ## How to Install
@@ -46,16 +41,12 @@ Available on the Obsidian theme store.
 <p>
 
 1. Download `theme.css` and `manifest.json` files from latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
-2. Go to **/your_vault/.obsidian/themes/** and create folder for theme files
+2. Go to `/your_vault/.obsidian/themes/` and create folder for theme files
 3. Paste downloaded theme files into created folder
 4. In Obsidian go to Settings -> Appearance -> select GitHub Flavored Markdown Theme in dropdown menu
 
 </p>
 </details>
-
-## Contributing
-
-Feel free to open [issue](https://github.com/tofrankie/obsidian-gfm-theme/issues) or [pull request](https://github.com/tofrankie/obsidian-gfm-theme/pulls) on GitHub. I will be glad to work on it.
 
 ## Credits
 
