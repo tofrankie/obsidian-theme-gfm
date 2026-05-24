@@ -1,8 +1,6 @@
-# Obsidian GitHub Theme
+# Obsidian GitHub Flavored Markdown Theme
 
-![Promo](/imgs/promo.png)
-![](https://img.shields.io/badge/downloads-54200%2B-7ee787?style=for-the-badge&labelColor=21262d)
-[![](https://img.shields.io/badge/Obsidian%20October%202022-Runner%20Up-7b6cd9?style=for-the-badge&logo=obsidian&labelColor=21262d)](https://obsidian.md/blog/2022-obsidian-october-winners/#New%20theme)
+![Promo](/images/promo.png)
 
 ## Preview
 
@@ -10,27 +8,27 @@
 <summary> Screenshots </summary>
 <p>
 
-![Screenshot-1](/imgs/screenshots/note.png)
+![Screenshot-1](/images/screenshots/note.png)
 
-![Screenshot-2](/imgs/screenshots/note-2.png)
+![Screenshot-2](/images/screenshots/note-2.png)
 
-![Screenshot-3](/imgs/screenshots/command-palette.png)
+![Screenshot-3](/images/screenshots/command-palette.png)
 
-![Kanban](/imgs/screenshots/kanban-plugin.png)
+![Kanban](/images/screenshots/kanban-plugin.png)
 
 </p>
 </details>
 
 ## Features
 
-- [Kanban](https://github.com/mgmeyers/obsidian-kanban) board has been styled to look like a GitHub Projects
+- [Kanban](https://github.com/obsidian-community/obsidian-kanban) board has been styled to look like a GitHub Projects
 - Callouts in GitHub style
 - Inline code blocks in GitHub style
 - Obsidian UI buttons in GitHub style
 
-## Theme Settigns
+## Theme Settings
 
-Theme settings can be find in the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin.
+Theme settings can be find in the [Style Settings](https://github.com/obsidian-community/obsidian-style-settings) plugin.
 
 Current settings include:
 
@@ -47,14 +45,22 @@ Available on the Obsidian theme store.
 <summary> Manually </summary>
 <p>
 
-1. Download `theme.css` and `manifest.json` files from latest [release](https://github.com/krios2146/obsidian-github/releases/)
+1. Download `theme.css` and `manifest.json` files from latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
 2. Go to **/your_vault/.obsidian/themes/** and create folder for theme files
 3. Paste downloaded theme files into created folder
-4. In Obsidian go to Settings -> Appearance -> select GitHub theme in dropdown menu
+4. In Obsidian go to Settings -> Appearance -> select GitHub Flavored Markdown Theme in dropdown menu
 
 </p>
 </details>
 
 ## Contributing
 
-Feel free to open [issue](https://github.com/krios2146/obsidian-github/issues) or [pull request](https://github.com/krios2146/obsidian-github/pulls) on GitHub. I will be glad to work on it.
+Feel free to open [issue](https://github.com/tofrankie/obsidian-gfm-theme/issues) or [pull request](https://github.com/tofrankie/obsidian-gfm-theme/pulls) on GitHub. I will be glad to work on it.
+
+## Credits
+
+Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github) by [krios2146](https://github.com/krios2146). ❤️
+
+## License
+
+MIT License © [Frankie](https://github.com/tofrankie)
