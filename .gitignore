@@ -35,5 +35,4 @@ coverage/
 !.env.example
 *.tgz
 *.vsix
-vault/
 docs/

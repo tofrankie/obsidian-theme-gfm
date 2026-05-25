@@ -1,0 +1,9 @@
+{
+  "fileWatchers": [
+    {
+      "file": ".obsidian/themes/GitHub Flavored Markdown",
+      "active": true
+    }
+  ],
+  "fileWatcherInterval": 200
+}
