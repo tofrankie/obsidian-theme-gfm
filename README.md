@@ -43,7 +43,7 @@ Available on the Obsidian theme store.
 1. Download `theme.css` and `manifest.json` files from latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
 2. Go to `/your_vault/.obsidian/themes/` and create folder for theme files
 3. Paste downloaded theme files into created folder
-4. In Obsidian go to Settings -> Appearance -> select GitHub Flavored Markdown Theme in dropdown menu
+4. In Obsidian go to Settings -> Appearance -> Themes -> select GitHub Flavored Markdown in dropdown menu
 
 </p>
 </details>
