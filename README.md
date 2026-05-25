@@ -1,10 +1,10 @@
 # Obsidian GitHub Flavored Markdown Theme
 
-![Promo](/images/promo.png)
+![](./images/cover.png)
 
 ## Features
 
-> A leaner [GitHub Theme](https://github.com/krios2146/obsidian-theme-github) fork—Kanban styling kept, custom settings trimmed, closer to native GFM.
+> Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github), with Kanban styling retained, some custom settings removed, and a closer GFM experience.
 
 - Near-native GFM experience
 - Support for GFM Alerts
@@ -25,7 +25,7 @@
 
 ## Theme Settings
 
-Theme settings can be find in the [Style Settings](https://github.com/obsidian-community/obsidian-style-settings) plugin.
+Theme settings can be find in the [Obsidian Style Settings](https://github.com/obsidian-community/obsidian-style-settings) plugin.
 
 Current settings include:
 
@@ -50,7 +50,7 @@ Available on the Obsidian theme store.
 
 ## Credits
 
-Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github) by [krios2146](https://github.com/krios2146). ❤️
+Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github) by [krios2146](https://github.com/krios2146) ❤️
 
 ## License
 
