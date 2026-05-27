@@ -48,6 +48,10 @@ Available on the Obsidian theme store.
 </p>
 </details>
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
 ## Credits
 
 Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github) by [krios2146](https://github.com/krios2146) ❤️
