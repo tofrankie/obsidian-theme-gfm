@@ -1,0 +1,42 @@
+{
+  "name": "obsidian-gfm-theme",
+  "type": "module",
+  "version": "1.0.2",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "description": "Provides a near-native GitHub Flavored Markdown experience for Obsidian.",
+  "author": "Frankie <1426203851@qq.com>",
+  "license": "MIT",
+  "homepage": "https://community.obsidian.md/themes/github-flavored-markdown-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tofrankie/obsidian-gfm-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tofrankie/obsidian-gfm-theme/issues",
+    "email": "1426203851@qq.com"
+  },
+  "scripts": {
+    "lint": "run-s lint:eslint lint:prettier lint:stylelint",
+    "lint:eslint": "eslint . --fix",
+    "lint:prettier": "prettier . --write --log-level silent",
+    "lint:stylelint": "stylelint '**/*.css' --fix",
+    "prepare": "simple-git-hooks"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@tofrankie/commitlint": "^0.0.6",
+    "@tofrankie/eslint": "^0.3.1",
+    "@tofrankie/prettier": "^0.2.0",
+    "@tofrankie/stylelint": "^0.3.0",
+    "eslint": "^10.4.0",
+    "npm-run-all2": "^9.0.1",
+    "prettier": "^3.8.3",
+    "simple-git-hooks": "^2.13.1",
+    "stylelint": "^17.12.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint",
+    "commit-msg": "pnpm commitlint --edit $1"
+  }
+}

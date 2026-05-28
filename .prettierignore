@@ -1,0 +1,4 @@
+pnpm-lock.yaml
+
+vault/.obsidian/**/*.json
+vault/.obsidian/plugins/**

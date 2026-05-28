@@ -27,12 +27,15 @@ git clone https://github.com/your-username/obsidian-gfm-theme.git
      - Obsidian Style Settings: `vault/.obsidian/plugins/obsidian-style-settings`
    - Theme:
      - GitHub Flavored Markdown: `vault/.obsidian/themes/GitHub Flavored Markdown`
+
 4. Use `Cmd + Option + I` (macOS) or `Ctrl + Shift + I` (Windows/Linux) to open Obsidian DevTools, and debug CSS similarly to Chrome.
 
 5. Edit `vault/.obsidian/themes/GitHub Flavored Markdown/theme.css` (do not edit the root-level `theme.css` directly). Changes will hot-reload automatically.
 
 6. After development and debugging are complete, switch between light and dark modes to confirm everything works as expected in both.
 
-7. Sync changes from `vault/.obsidian/themes/GitHub Flavored Markdown/theme.css` back to the root-level `theme.css`.
+7. Run `pnpm install` first, then run `pnpm lint` for formatting checks.
 
-8. Submit a PR.
+8. Sync changes from `vault/.obsidian/themes/GitHub Flavored Markdown/theme.css` back to the root-level `theme.css`.
+
+9. Submit a PR.
