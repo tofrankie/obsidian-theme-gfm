@@ -34,7 +34,7 @@ Current settings include:
 
 ## How to Install
 
-Available on the Obsidian theme store.
+Available on the Obsidian theme [store](https://community.obsidian.md/themes/github-flavored-markdown-theme).
 
 <details>
 <summary> Manually </summary>

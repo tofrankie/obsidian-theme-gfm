@@ -975,6 +975,10 @@ body.colorblind_tritan.theme-light {
   background-image: unset;
 }
 
+.markdown-rendered .internal-link {
+  text-decoration: underline;
+}
+
 .markdown-rendered pre {
   background-color: var(--bgColor-muted);
 }
