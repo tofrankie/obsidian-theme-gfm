@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.2
+
+> 2026-05-29
+
+- Update internal link style
+
 ## 1.0.1
 
 > 2026-05-27
