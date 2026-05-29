@@ -45,6 +45,8 @@ function sayHello() {
 }
 ```
 
+Save the document by pressing <kbd>Ctrl</kbd> + <kbd>S</kbd>
+
 ## Footnotes
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
