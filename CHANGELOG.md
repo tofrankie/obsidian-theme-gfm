@@ -1,5 +1,12 @@
 # Change log
 
+## 1.0.3
+
+> 2026-05-29
+
+- Add kbd tag style, such as <kbd>Ctrl</kbd> + <kbd>S</kbd>
+- Remove button:hover custom cursor style
+
 ## 1.0.2
 
 > 2026-05-29
