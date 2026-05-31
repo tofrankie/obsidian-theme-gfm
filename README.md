@@ -6,13 +6,14 @@
 
 > Forked from [obsidian-theme-github](https://github.com/krios2146/obsidian-theme-github), with Kanban styling retained, some custom settings removed, and a closer GFM experience.
 
-- Near-native GFM experience
-- Support for GFM Alerts
+- Supports light and dark modes
+- Provides a native GFM experience
+- Supports GFM Alerts
 
 ## Preview
 
 <details>
-<summary> Screenshots </summary>
+<summary>Screenshots</summary>
 <p>
 
 ![Dark Mode](/images/screenshots/dark-mode-1.png)
@@ -25,25 +26,25 @@
 
 ## Theme Settings
 
-Theme settings can be find in the [Obsidian Style Settings](https://github.com/obsidian-community/obsidian-style-settings) plugin.
+Theme settings can be found in the [Obsidian Style Settings](https://github.com/obsidian-community/obsidian-style-settings) plugin.
 
 Current settings include:
 
-- On/Off kanban styles
-- Colorblind colorscheme variants
+- Kanban style toggle
+- Color-blind-friendly color scheme variants
 
 ## How to Install
 
-Available on the Obsidian theme [store](https://community.obsidian.md/themes/github-flavored-markdown-theme).
+This theme is available on the Obsidian Theme [Store](https://community.obsidian.md/themes/github-flavored-markdown-theme).
 
 <details>
-<summary> Manually </summary>
+<summary>Manually</summary>
 <p>
 
-1. Download `theme.css` and `manifest.json` files from latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
-2. Go to `/your_vault/.obsidian/themes/` and create folder for theme files
-3. Paste downloaded theme files into created folder
-4. In Obsidian go to Settings -> Appearance -> Themes -> select GitHub Flavored Markdown in dropdown menu
+1. Download the `theme.css` and `manifest.json` files from the latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
+2. Go to `/your_vault/.obsidian/themes/` and create a folder for the theme files
+3. Paste the downloaded theme files into the created folder
+4. In Obsidian, go to Settings -> Appearance -> Themes and select GitHub Flavored Markdown from the dropdown menu
 
 </p>
 </details>

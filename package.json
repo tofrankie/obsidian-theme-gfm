@@ -1,10 +1,10 @@
 {
   "name": "obsidian-gfm-theme",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "packageManager": "pnpm@10.33.4",
-  "description": "Provides a near-native GitHub Flavored Markdown experience for Obsidian.",
+  "description": "GitHub Flavored Markdown Theme for Obsidian",
   "author": "Frankie <1426203851@qq.com>",
   "license": "MIT",
   "homepage": "https://community.obsidian.md/themes/github-flavored-markdown-theme",
