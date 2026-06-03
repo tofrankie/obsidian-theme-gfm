@@ -1,4 +1,5 @@
 [
   "obsidian-style-settings",
-  "obsidian-theme-hot-reload-plugin"
+  "obsidian-theme-hot-reload-plugin",
+  "prettier"
 ]
