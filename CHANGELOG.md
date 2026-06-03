@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.5
+
+> 2026-06-04
+
+- Update live preview mode styles
+
 ## 1.0.4
 
 > 2026-06-01
