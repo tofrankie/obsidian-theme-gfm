@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.7
+
+> 2026-06-05
+
+- Fix external link style
+
 ## 1.0.6
 
 > 2026-06-04
