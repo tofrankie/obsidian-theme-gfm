@@ -1551,10 +1551,11 @@ select:focus,
 }
 
 /* ------------- Live Preview Mode ------------------  */
-.markdown-source-view.is-live-preview .HyperMD-quote::before {
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote::before {
   padding-inline-start: 1em;
-  color: var(--fgColor-muted) !important;
-  border-inline-start: 0.25em solid var(--borderColor-muted) !important;
+  color: var(--fgColor-muted);
+  border-inline-start: 0.25em solid var(--borderColor-muted);
 }
 
 .cm-s-obsidian span.cm-quote {
@@ -1578,7 +1579,7 @@ select:focus,
 .markdown-source-view.mod-cm6 .cm-link .cm-underline,
 .markdown-source-view.mod-cm6 .cm-url .cm-underline {
   color: var(--fgColor-accent);
-  text-decoration-line: underline;
+  text-decoration: underline;
   text-underline-offset: 0.2rem;
 }
 
@@ -1586,7 +1587,7 @@ select:focus,
   .cm-s-obsidian span.cm-formatting-link.cm-url:hover,
   .cm-s-obsidian span.cm-url:hover {
     color: var(--fgColor-accent);
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-underline-offset: 0.2rem;
   }
 }
@@ -1611,4 +1612,11 @@ select:focus,
 .markdown-source-view.is-live-preview .HyperMD-header-6 {
   /* margin-block: var(--base-size-24, 1.5rem) var(--base-size-16, 1rem) !important; */
   color: var(--fgColor-default);
+}
+
+/* ------------- Other Panel ------------------  */
+.external-link {
+  padding-inline-end: 0;
+  text-underline-offset: 0.2rem;
+  background-image: unset;
 }

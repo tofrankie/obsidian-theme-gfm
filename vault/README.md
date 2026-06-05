@@ -83,6 +83,8 @@ A Mermaid diagram is a visual representation of structures or processes created 
 
 ## Gemoji
 
+https://github.com/tofrankie/obsidian-plugin-gemoji
+
 Thumbs up: :+1:, thumbs down: :-1:.
 
 Families: :family_man_man_boy_boy:
