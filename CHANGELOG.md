@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.8
+
+> 2026-06-06
+
+- Update author name
+
 ## 1.0.7
 
 > 2026-06-05

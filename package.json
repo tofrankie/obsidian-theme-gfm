@@ -1,7 +1,7 @@
 {
   "name": "obsidian-gfm-theme",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": true,
   "packageManager": "pnpm@10.33.4",
   "description": "GitHub Flavored Markdown Theme for Obsidian",
@@ -17,6 +17,7 @@
     "email": "1426203851@qq.com"
   },
   "scripts": {
+    "update-version": "node scripts/update-version.js",
     "lint": "run-s lint:eslint lint:prettier lint:stylelint",
     "lint:eslint": "eslint . --fix",
     "lint:prettier": "prettier . --write --log-level silent",
