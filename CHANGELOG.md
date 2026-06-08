@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.9
+
+> 2026-06-08
+
+- Fix link hover style
+
 ## 1.0.8
 
 > 2026-06-06

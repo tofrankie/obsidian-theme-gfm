@@ -1584,6 +1584,27 @@ select:focus,
 }
 
 @media (hover: hover) {
+  .markdown-source-view.mod-cm6 .cm-link .cm-underline:hover,
+  .markdown-source-view.mod-cm6 .cm-url .cm-underline:hover {
+    color: var(--fgColor-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+  }
+}
+
+@media (hover: hover) {
+  .cm-s-obsidian span.cm-link:hover {
+    text-underline-offset: 0.2rem;
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-underline-offset: 0.2rem;
+  }
+}
+
+@media (hover: hover) {
   .cm-s-obsidian span.cm-formatting-link.cm-url:hover,
   .cm-s-obsidian span.cm-url:hover {
     color: var(--fgColor-accent);
