@@ -399,7 +399,7 @@ body {
   --nav-item-color-selected: var(--text-normal);
   --nav-item-color-highlighted: var(--text-accent-hover);
   --nav-item-background-hover: var(--background-modifier-hover);
-  --nav-item-background-active: var(--background-modifier-hover);
+  --nav-item-background-active: var(--background-modifier-active);
   --nav-item-background-selected: hsl(var(--color-accent-hsl), 0.2);
   --nav-item-padding: var(--size-4-1) var(--size-4-2) var(--size-4-1) var(--size-4-6);
   --nav-item-parent-padding: var(--nav-item-padding);
@@ -630,6 +630,7 @@ body {
   --background-primary-alt: var(--color-base-10);
   --background-secondary: var(--color-base-20);
   --background-modifier-hover: rgb(var(--rgb-hover), var(--background-modifier-hover-alpha));
+  --background-modifier-active: rgb(var(--rgb-hover), var(--background-modifier-active-alpha));
   --background-modifier-active-hover: hsl(var(--interactive-accent-hsl), 0.15);
   --background-modifier-border: var(--color-base-30);
   --background-modifier-border-hover: var(--color-base-30);
@@ -669,7 +670,8 @@ body {
   --highlight-mix-blend-mode: lighten;
   --mono-rgb-0: 0, 0, 0;
   --mono-rgb-100: 255, 255, 255;
-  --rgb-hover: 177, 186, 196;
+  --rgb-hover: 101, 108, 118;
+  --rgb-active: 101, 108, 118;
   --color-red-rgb: 248, 81, 73;
   --color-red: #f47067;
   --color-green-rgb: 126, 231, 135;
@@ -700,7 +702,7 @@ body {
   --color-accent-2: hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) + 3.8%));
   --background-secondary-alt: var(--color-base-25);
   --background-modifier-box-shadow: rgb(0 0 0 / 30%);
-  --background-modifier-cover: rgb(10 10 10 / 40%);
+  --background-modifier-cover: #21283066;
   --text-highlight-bg: rgb(255 208 0 / 40%);
   --text-highlight-bg-active: rgb(255 128 0 / 40%);
   --text-selection: hsl(var(--interactive-accent-hsl), 0.4);
@@ -709,7 +711,8 @@ body {
   --shadow-s: none;
   --shadow-l: none;
   --inline-code-background: #6e768166;
-  --background-modifier-hover-alpha: 0.12;
+  --background-modifier-hover-alpha: 0.2;
+  --background-modifier-active-alpha: 0.2;
   --color-btn-primary-bg: #238636;
   --color-btn-primary-hover-bg: #2ea043;
 
@@ -730,7 +733,7 @@ body {
   --modal-background: var(--background-secondary);
   --search-result-background: var(--background-secondary);
   --background-modifier-form-field: var(--background-modifier-border);
-  --background-modifier-cover: rgb(0 0 0 / 50%);
+  --background-modifier-cover: #21283066;
   --background-modifier-hover: rgb(var(--mono-rgb-100), 0.15);
   --settings-home-background: var(--background-primary);
 }
@@ -741,7 +744,8 @@ body {
   --highlight-mix-blend-mode: darken;
   --mono-rgb-0: 255, 255, 255;
   --mono-rgb-100: 0, 0, 0;
-  --rgb-hover: 208, 215, 222;
+  --rgb-hover: 129, 139, 152;
+  --rgb-active: 129, 139, 152;
   --color-red-rgb: 228, 55, 75;
   --color-red: #cf222e;
   --color-green-rgb: 12, 181, 79;
@@ -773,7 +777,7 @@ body {
   --color-accent-2: hsl(var(--accent-h) var(--accent-s) calc(var(--accent-l) + 5%));
   --background-secondary-alt: var(--color-base-05);
   --background-modifier-box-shadow: rgb(0 0 0 / 10%);
-  --background-modifier-cover: rgb(220 220 220 / 40%);
+  --background-modifier-cover: #c8d1da66;
   --text-highlight-bg: rgb(255 208 0 / 40%);
   --text-highlight-bg-active: rgb(255 128 0 / 40%);
   --input-shadow: inset 0 0 0 1px #1b1f2426;
@@ -781,7 +785,8 @@ body {
   --shadow-s: none;
   --shadow-l: none;
   --inline-code-background: #aeb8c133;
-  --background-modifier-hover-alpha: 0.32;
+  --background-modifier-hover-alpha: 0.1;
+  --background-modifier-active-alpha: 0.15;
   --color-btn-primary-bg: #2da44f;
   --color-btn-primary-hover-bg: #2c964a;
 
@@ -1640,4 +1645,10 @@ select:focus,
   padding-inline-end: 0;
   text-underline-offset: 0.2rem;
   background-image: unset;
+}
+
+/* Settings */
+body:not(.is-phone) .horizontal-tab-nav-item.is-active,
+body:not(.is-phone) .vertical-tab-nav-item.is-active {
+  background-color: var(--background-modifier-active);
 }
