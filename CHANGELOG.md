@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.10
+
+> 2026-06-20
+
+- Update navigation style
+
 ## 1.0.9
 
 > 2026-06-08
