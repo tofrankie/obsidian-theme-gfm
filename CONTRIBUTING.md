@@ -18,7 +18,7 @@ It is recommended to understand the basics of Obsidian theme development first:
 2. Clone the repository locally.
 
 ```bash
-git clone https://github.com/your-username/obsidian-gfm-theme.git
+git clone https://github.com/your-username/obsidian-theme-gfm.git
 ```
 
 3. Open the `vault` sample vault in this project with Obsidian. It already includes the required theme and plugins for development and debugging.

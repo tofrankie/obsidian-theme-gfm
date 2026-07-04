@@ -1,5 +1,5 @@
 {
-  "name": "obsidian-gfm-theme",
+  "name": "obsidian-theme-gfm",
   "type": "module",
   "version": "1.0.10",
   "private": true,
@@ -10,10 +10,10 @@
   "homepage": "https://community.obsidian.md/themes/github-flavored-markdown-theme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tofrankie/obsidian-gfm-theme.git"
+    "url": "git+https://github.com/tofrankie/obsidian-theme-gfm.git"
   },
   "bugs": {
-    "url": "https://github.com/tofrankie/obsidian-gfm-theme/issues",
+    "url": "https://github.com/tofrankie/obsidian-theme-gfm/issues",
     "email": "1426203851@qq.com"
   },
   "scripts": {

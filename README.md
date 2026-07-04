@@ -41,7 +41,7 @@ This theme is available on the Obsidian Theme [Store](https://community.obsidian
 <summary>Manually</summary>
 <p>
 
-1. Download the `theme.css` and `manifest.json` files from the latest [release](https://github.com/tofrankie/obsidian-gfm-theme/releases/)
+1. Download the `theme.css` and `manifest.json` files from the latest [release](https://github.com/tofrankie/obsidian-theme-gfm/releases/)
 2. Go to `/your_vault/.obsidian/themes/` and create a folder for the theme files
 3. Paste the downloaded theme files into the created folder
 4. In Obsidian, go to Settings -> Appearance -> Themes and select GitHub Flavored Markdown from the dropdown menu

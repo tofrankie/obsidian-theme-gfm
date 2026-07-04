@@ -1,6 +1,6 @@
 ## GFM Extended Syntax
 
-Automatic URL Linking: https://github.com/tofrankie/obsidian-gfm-theme
+Automatic URL Linking: https://github.com/tofrankie/obsidian-theme-gfm
 
 ~~The world is flat.~~ We now know that the world is round.
 
@@ -32,7 +32,7 @@ Automatic URL Linking: https://github.com/tofrankie/obsidian-gfm-theme
 
 I just love **bold text**. Italicized text is the _cat's meow_. At the command prompt, type `nano`.
 
-My favorite markdown editor is [ByteMD](https://github.com/pd4d10/bytemd).
+My favorite markdown editor is [**ByteMD**](https://github.com/pd4d10/bytemd).
 
 1. First item
 2. Second item
