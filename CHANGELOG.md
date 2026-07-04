@@ -1,5 +1,11 @@
 # Change log
 
+## 1.0.11
+
+> 2026-07-04
+
+- Rename github repository to `obsidian-theme-gfm`
+
 ## 1.0.10
 
 > 2026-06-20
