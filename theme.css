@@ -1640,6 +1640,18 @@ select:focus,
   color: var(--fgColor-default);
 }
 
+.cm-s-obsidian span.cm-inline-code {
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  color: var(--fgColor-default);
+  background-color: var(--bgColor-neutral-muted);
+  border-radius: 6px;
+}
+
+/* .cm-s-obsidian span.cm-formatting.cm-formatting-code {
+  color: var(--code-normal);
+} */
+
 /* ------------- Other Panel ------------------  */
 .external-link {
   padding-inline-end: 0;
