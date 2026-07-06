@@ -1,5 +1,9 @@
 # Change log
 
+## 1.0.12
+
+- Update inline-code style in Live Preview Mode
+
 ## 1.0.11
 
 > 2026-07-04
