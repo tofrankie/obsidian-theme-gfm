@@ -25,17 +25,17 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.0.1",
+    "@commitlint/cli": "^21.2.1",
     "@tofrankie/commitlint": "^0.0.6",
-    "@tofrankie/eslint": "^0.3.1",
+    "@tofrankie/eslint": "^0.5.0",
     "@tofrankie/prettier": "^0.2.0",
-    "@tofrankie/stylelint": "^0.3.0",
-    "eslint": "^10.4.0",
+    "@tofrankie/stylelint": "^0.3.1",
+    "eslint": "^10.7.0",
     "github-markdown-css": "^5.9.0",
-    "npm-run-all2": "^9.0.1",
-    "prettier": "^3.8.3",
+    "npm-run-all2": "^9.0.2",
+    "prettier": "^3.9.5",
     "simple-git-hooks": "^2.13.1",
-    "stylelint": "^17.12.0"
+    "stylelint": "^17.14.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint",
