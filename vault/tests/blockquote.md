@@ -14,7 +14,6 @@
 含 code 的引用块
 
 > Dorothy followed her through many of the beautiful rooms in her `castle`.
-> 含 code 的引用块
 
 含 Bold 的引用块
 
