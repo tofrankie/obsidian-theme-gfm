@@ -1,6 +1,14 @@
 # Change log
 
+## 1.0.13
+
+> 2026-07-17
+
+- Update blockquote color
+
 ## 1.0.12
+
+> 2026-07-07
 
 - Update inline-code style in Live Preview Mode
 
