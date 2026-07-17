@@ -1025,6 +1025,11 @@ body.colorblind_tritan.theme-light {
   border-radius: 6px;
 }
 
+.markdown-rendered blockquote strong,
+.markdown-rendered blockquote code {
+  color: var(--fgColor-muted);
+}
+
 .markdown-rendered :not(pre) a code {
   color: var(--fgColor-accent);
 }
@@ -1651,6 +1656,17 @@ select:focus,
 /* .cm-s-obsidian span.cm-formatting.cm-formatting-code {
   color: var(--code-normal);
 } */
+
+/* Preview Mode quote code */
+.cm-s-obsidian .HyperMD-quote .cm-inline-code:not(.cm-formatting) {
+  color: var(--fgColor-muted);
+}
+
+/* Edit Mode quote code */
+.cm-s-obsidian .HyperMD-quote .cm-inline-code.cm-formatting,
+.cm-s-obsidian .HyperMD-quote .cm-inline-code.cm-formatting ~ .cm-inline-code:not(.cm-formatting) {
+  color: var(--fgColor-muted);
+}
 
 /* ------------- Other Panel ------------------  */
 .external-link {
