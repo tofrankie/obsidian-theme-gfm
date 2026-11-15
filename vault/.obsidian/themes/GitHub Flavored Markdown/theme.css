@@ -297,7 +297,7 @@ body {
 
   /* Horizontal rules */
   --hr-color: var(--background-modifier-border);
-  --hr-thickness: 2px;
+  --hr-thickness: 1px;
 
   /* Icons */
   --icon-size: var(--icon-s);
@@ -1294,6 +1294,7 @@ button.mod-cta:hover {
 /* Markdown hr */
 .markdown-rendered hr {
   margin-block: var(--base-size-24);
+  border-color: var(--borderColor-default);
 }
 
 /* Task List */

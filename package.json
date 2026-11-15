@@ -1,7 +1,7 @@
 {
   "name": "obsidian-theme-gfm",
   "type": "module",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "packageManager": "pnpm@10.33.4",
   "description": "GitHub Flavored Markdown Theme for Obsidian",
@@ -25,17 +25,17 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.1",
+    "@commitlint/cli": "^21.2.4",
     "@tofrankie/commitlint": "^0.0.6",
     "@tofrankie/eslint": "^0.5.0",
+    "@tofrankie/github-markdown-css": "^0.0.8",
     "@tofrankie/prettier": "^0.3.0",
     "@tofrankie/stylelint": "^0.5.0",
-    "eslint": "^10.9.0",
-    "github-markdown-css": "^5.9.0",
-    "npm-run-all2": "^9.0.3",
-    "prettier": "^3.9.6",
-    "simple-git-hooks": "^2.13.1",
-    "stylelint": "^17.14.1"
+    "eslint": "^10.15.0",
+    "npm-run-all2": "^9.0.4",
+    "prettier": "^3.10.1",
+    "simple-git-hooks": "^2.14.0",
+    "stylelint": "^17.16.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint",

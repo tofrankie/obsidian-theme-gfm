@@ -1,5 +1,11 @@
 # Change log
 
+## 1.1.1
+
+> 2026-11-15
+
+- Set the markdown `<hr>` thickness to `1px` ([#3157](https://github.com/primer/css/pull/3157))
+
 ## 1.1.0
 
 > 2026-08-26
